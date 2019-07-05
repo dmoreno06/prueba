@@ -1,6 +1,51 @@
+/*++++++++++++++++++++++
+        GENARAL
+++++++++++++++++++++++++*/
 a {
     text-decoration: none;
 }
 #wrapper {
-    background: aquamarine;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+/*++++++++++++++++++++++
+        HEADER
+++++++++++++++++++++++++*/
+#logo{
+    text-align: center;
+    margin: 0;
+}
+h1, h2{
+    font-family: 'El Messiri', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+}
+/*++++++++++++++++++++++
+        COLORS
+++++++++++++++++++++++++*/
+a {
+    color: #6ab47b;
+}
+header{
+    /* background: #6ab47b; */
+    border-color: #33adff;
+    background: #80ccff;
+}
+h1, h2 {
+    color: #fff;
+}
+nav {
+    background: #33adff;
+}
+nav a, nav a:visited{
+    color: #fff;
+}
+/*selector de la pagina actual*/
+nav a.selected, a:hover{
+    color: #008ae6;
+}
+body{
+    background-color: #fff;
+    color: #999;
 }
