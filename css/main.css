@@ -105,6 +105,33 @@ nav {
 nav a, nav a:visited{
     color: #fff;
 }
+/*++++++++++++++++++++++
+    PAGINA DE CONTACTOS
+++++++++++++++++++++++++*/
+.contac-info{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9m;
+    list-style: none;
+}
+.contac-info a{
+    display: block;
+    min-height: 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.contac-info li.phone a{
+    background-image: url('../img/phone.png');
+}
+.contac-info li.email a{
+    background-image: url('../img/mail.png');
+}
+.contac-info li.twitter a{
+    background-image: url('../img/twitter.png');
+}
+
 /*selector de la pagina actual*/
 nav a.selected, a:hover{
     color: #008ae6;
