@@ -80,6 +80,10 @@ nav ul {
 nav ul li{
     display: inline-block;
 }
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
 /*++++++++++++++++++++++
         COLORS
 ++++++++++++++++++++++++*/
@@ -120,4 +124,9 @@ footer{
     padding-top: 50px;
     color: #ccc;
     clear: both;
+}
+.social-icon-twitter{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
