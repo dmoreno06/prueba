@@ -1,0 +1,10 @@
+@media all and (min-width: 480px){
+    body {
+        background: navy;
+    }
+}
+@media all and (min-width: 660px){
+    body {
+        background: cyan;
+    }
+}
