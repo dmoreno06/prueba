@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dmoreno06| Developer</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=El+Messiri&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/responseive.css" type="text/css">
-    <title>Dmoreno06| Developer</title>
+    
 </head>
 <!--COMENTARIO-->
 
@@ -46,10 +46,29 @@
                     <a href="mailto:vida@gmail.com">vida@gmail.com</a>
                 </li>
                 <li class="twitter">
-                    <a href="https://twitter.com/intent/tweet?screen_name=dmoreno06">dmoreno06</a>
+                    <a href="http://twitter.com/intent/tweet?screen_name=dmoreno06">dmoreno06</a>
                 </li>
             </ul>
         </section>
+        <section>
+                <form id="contactForm" method="post" action="php/contact-form.php">
+                  <div>
+                    <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+                  </div>          
+                  <div>
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+                  </div>        
+                  <div>
+                    <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+                  </div>
+                  <div>
+                    <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+                  </div>
+                  <div>
+                    <input type="submit" class="form-send" value="Enviar">
+                  </div>
+                </form>
+              </section>
     </div>
     <footer>
         <a href="https://twitter.com/dmoreno06">
