@@ -61,6 +61,7 @@ h2{
     margin: 2.5%;
     background-color: #f5f5f5;
     color: #bdc3c7;
+    border-radius: 2em;
 }
 #gallery li a p{
     margin: 0;
@@ -178,3 +179,16 @@ footer{
     height: 20px;
     margin: 0 5px;
 }
+
+/*++++++++++++++++++++++
+        CONTACT FORM
+++++++++++++++++++++++++*/
+
+.form-control {
+    margin: 5px 0;
+  }
+  
+  form textarea {
+    width: 20em;
+  }
+  
